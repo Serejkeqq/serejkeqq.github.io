@@ -1,10 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Serejke_qq's projects</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serejke_qq's projects</title>
+
+    <link rel="stylesheet" href="Content/site.css">
+    <link rel="stylesheet" href="Content/bootstrap.min.css">
+    <link rel="stylesheet" href="Content/bootstrap-theme.min.css">
+    <script src="Scripts/modernizr-2.8.3.js"></script>
+
 </head>
 <body>
-  <h1>Welcome to first version of site</h1>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a href="index.html" class="navbar-brand">Serejke_qq's projects</a>
+          </div>
+          <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+
+                  <li><a href="index.html">Projects</a></li>
+                  <li><a href="about.html">About me</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="container body-content">
+
+    <h2>Projects</h2>
+
+    <div class="row">
+      <div class="col-md-6">
+          <h2><a href="/Home/AboutArkanoid">Arkanoid techno demo</a></h2>
+          <h4>Small demo based on state-machine & services system with zenject</h4>
+          <a href="/Home/AboutArkanoid"><img class="img-responsive" src="Content/Images/arkanoidGameplay.png"></a>
+          <p>Small arkanoid techno demo game written on C#. 
+              Classic arkanoid game where you can find collectables and couple of different block types. 
+              Used flexible architecture (Based on state-machine & services system with zenject)
+          </p>
+          <p><a class="btn btn-default" href="/Home/AboutArkanoid">More &raquo;</a></p>
+      </div>
+  
+      <div class="col-md-6">
+          <h2><a href="/Home/about_core">Real-time strategy</a></h2>
+          <h4>Lightweight RTS prototype core written in C#.</h4>
+          <a href="/Home/about_core"><img class="img-responsive" src="Content/Images/no_image_sign.png"></a>
+          <p>A game where player controls the base increases his army and plays against bots with different behaviors. Base contains buildings, resources, and an army. The action takes place on the 15x15-30x30 map where each player has 5 buildings at his disposal and can improve them. During the game you can increase your base by capturing free space on the map. Each player can attack any of enemy bases. Bots are not always aggressive to the player. When a player attacks he chooses the number and type of units with which he attacks. On a successful attack the enemy base is destroyed and the attacker receives a reward. Otherwise attack squad is dies.</p>
+  
+          <p><a class="btn btn-default" href="/Home/about_core">More &raquo;</a></p>
+      </div>
+  
+      <div class="col-md-6">
+          <h2><a href="/Home/about_extension">RTS unity game</a></h2>
+          <h4>MVP Unity project extension for rts-core.</h4>
+          <a href="/Home/about_extension"><img class="img-responsive" src="Content/Images/rts/game.png"></a>
+          <p>MVP project extension for rts-core written in C# with unity 2021.3.8f1.</p>
+          <p><a class="btn btn-default" href="/Home/about_extension">More &raquo;</a></p>
+      </div>
+  </div>
+
+      <hr />
+      <footer>
+          <center>
+              <p>Copyright - 2026 &copy; Serejke_qq (Kotenko Sergey) </p>
+
+          </center>
+      </footer>
+  </div>
 </body>
 </html>
